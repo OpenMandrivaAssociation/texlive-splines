@@ -54,6 +54,7 @@ y=f(x), which is either periodic or relaxed.
 #- source
 %doc %{_texmfdistdir}/source/metapost/splines/splines.dtx
 %doc %{_texmfdistdir}/source/metapost/splines/splines.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -64,3 +65,5 @@ y=f(x), which is either periodic or relaxed.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
