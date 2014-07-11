@@ -6,7 +6,7 @@
 # catalog-version 0.2
 Name:		texlive-splines
 Version:	0.2
-Release:	7
+Release:	8
 Summary:	MetaPost macros for drawing cubic spline interpolants
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/splines
