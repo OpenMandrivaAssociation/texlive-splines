@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	MetaPost macros for drawing cubic spline interpolants
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/splines
+URL:		https://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/splines
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/splines.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/splines.doc.r%{version}.tar.xz
